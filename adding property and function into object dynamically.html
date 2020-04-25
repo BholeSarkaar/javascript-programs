@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>
+adding property and function into object dynamically
+</title>
+<script>
+var fees={
+                  Rohit:300,
+                 Sagar:400,
+                 Akshay:700
+            }
+   document.write("Rohit:"+fees.Rohit+"<br>sagar:"+fees.Sagar+"<br>Akshay:"+fees.Akshay+"<br>");
+  fees.Ritesh=400;
+   document.write("Ritesh:"+fees.Ritesh+"<br>");
+   fees.notice=function(){
+                      document.write("Submit your fees as early as possible");
+                  }
+       fees.notice();
+</script>
+</head>
+<body>
+</body>
+</html>

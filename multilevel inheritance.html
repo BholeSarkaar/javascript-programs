@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>
+multilevel inheritance
+</title>
+<script>
+class name
+   {
+       show()
+           {
+                  document.write("my name  is Rohit Naikade<br>");
+           }
+  }
+class city extends name
+   {
+        show1()
+           {
+                  document.write("I am living in Rajgurunagar<br>");
+           }
+  }
+class college extends city
+   {
+        show2()
+           {
+                  document.write("I am studyingin Govt. polytechnic awasari<br>");
+           }
+  }
+var a1=new college();
+a1.show();
+a1.show1();
+a1.show2();
+</script>
+</head>
+<body>
+<p></p>
+</body>
+</html>

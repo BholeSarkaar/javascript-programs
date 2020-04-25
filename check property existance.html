@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>check property existance
+</title>
+<script>
+class mobile()
+     {
+                       this.model=model;
+	          this.price=price;
+                       this.colour=colour;
+            show()
+               {
+                      document.write("model Name:"+model+"<br>");
+                       document.write("price:"+price+"<br>");
+	           document.write("colour:"+colour+"<br>");
+               }
+ }
+   var m1=new mobile("Samsung",12000,"black");
+ if('colour' in m1)
+   {
+          document.write("Available");
+   }
+  else{
+        document.write("not Available");
+     }
+</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!doctype html>
+<head>
+<title>
+methods
+</title>
+<script>
+document.write("34:"+Number.isInteger(34)+"<br>");
+document.write("Rohit:"+Number.isInteger("Rohit")+"<br>");
+document.write("-98:"+Number.isInteger(-98)+"<br>");
+document.write("34:"+isNaN(34)+"<br>");
+document.write("Rohit:"+isNaN("Rohit")+"<br>");
+var a=[10,20,30,40];
+document.write(a+"<br>");
+size=a.unshift(50,60);
+document.write(a+"<br>");
+document.write("size:"+size+"<br>");
+var abc=3456789;
+document.write(abc.toPrecision()+"<br>");
+document.write(abc.toPrecision(2)+"<br>");
+document.write(abc.toFixed(2)+"<br>");
+document.write(abc.toFixed()+"<br>");
+document.write(abc.toExponential()+"<br>");
+document.write(abc.toExponential(3)+"<br>");
+document.write(parseFloat("10.20")+"<br>");
+document.write(parseFloat("45")+"<br>");
+document.write(parseFloat("45.00")+"<br>");
+document.write(parseFloat("10 34 78")+"<br>");
+var a=["Rohit","akshay","omkar"];
+document.write(a+"<br>");
+document.write(a.reverse()+"<br>");
+var a="Hello Geekyshows";
+document.write(a.replace("Geekyshows","Rohit")+"<br>");
+var a="Hello Geekyshows Geekyshows";
+document.write(a.replace("Geekyshows","Rohit<br>"));
+document.write("<br>None:"+Number.isSafeInteger()+"<br>");
+ document.write("100.45:"+Number.isSafeInteger(100.45)+"<br>");
+document.write("345:"+Number.isSafeInteger(345)+"<br>");
+document.write("3425427396749739657695485:"+Number.isSafeInteger(3425427396749739657695485)+"<br>");
+document.write("345:"+Number(345)+"<br>");
+document.write("true:"+Number(true)+"<br>");
+document.write("Hello:"+Number("Hello")+"<br>");
+
+</script>
+</head>
+<body>
+<p></p>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>constructor
+</title>
+<script>
+class mobile
+     {
+             constructor(model,price,colour,S_length="6")
+                 {
+                       this.m=model;
+	          this.p=price;
+                       this.c=colour;
+                       this.sl=S_length;
+                 }
+            show()
+               {
+                      document.write("model Name:"+this.m+"<br>");
+                       document.write("price:"+this.p+"<br>");
+	           document.write("colour:"+this.c+"<br>");
+                        document.write("Screen length:"+this.sl+"<br>");
+               }
+ };
+   var m1=new mobile("Samsung",12000,"black");
+       m1.show();
+    var m2=new mobile("Shaomi",15000,"gold");
+        m2.show();
+    var m3=new mobile("Lenovo",10000,"blue");
+        m3.show();
+</script>
+</head>
+<body>
+</body>
+</html>

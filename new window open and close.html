@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>new window open and close
+</title>
+</head>
+<body>
+<h1>Welcome in the world of Javascript</h1>
+<button onclick="popup()">popup window</button>
+<button onclick="close()">close window</button>
+<script>
+var wn;
+function popup()
+  {
+          var url="m.mp3";
+          wn=window.open(url,"_blank","top=10,width=200,height=200");
+   }
+function close()
+  {
+          wn.close();
+   }
+</script>
+</body>
+</html>

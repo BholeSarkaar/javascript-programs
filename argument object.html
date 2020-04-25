@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>
+argument object
+</title>
+<script>
+ var city="Rajgurunagar";
+function disp(name)
+    {
+        //   document.write(name1,name2);
+               document.write(city+" ");
+            document.write(arguments[0]+" ");
+            document.write(arguments[1]);
+              document.write(arguments.length+" ");
+            for(var i=0;i<arguments.length;i++)
+               {
+                       document.write(arguments[i]);
+               } 
+          document.write(arguments.callee);
+    }
+disp("rohit","naikade");
+</script>
+</head>
+<body>
+
+</body>
+</html>

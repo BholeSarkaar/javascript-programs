@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>innerHTML 
+</title>
+</head>
+<body>
+<div id="output">Hello World</div>
+<input type="text" id="val">
+Recent Address:<input type="text" id="raddr">
+permenent address:<input type="text" id="paddr">
+<script>
+var output=document.getElementById("output");
+var val=document.getElementById("val");
+val.value=output.innerHTML;
+var raddr=document.getElementById("raddr");
+var paddr=document.getElementById("paddr);
+paddr.value=raddr.innerHTML;
+</script>
+</body>
+</html>

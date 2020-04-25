@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>for in loop
+</title>
+<script>
+class mobile
+     {
+             constructor(model,price,colour)
+                 {
+                       this.model=model;
+	          this.price=price;
+                       this.colour=colour;
+                       
+                 }
+            show()
+               {
+                      document.write("model Name:"+model+"<br>");
+                       document.write("price:"+price+"<br>");
+	           document.write("colour:"+colour+"<br>");
+               }
+ }
+   var m1=new mobile("Samsung",12000,"black");
+    var m2=new mobile("Shaomi",15000,"gold");
+    var m3=new mobile("Lenovo",10000,"blue");
+        for(var specs in m2)
+              {
+                  document.write(specs+": "+m2[specs]+"<br>");
+              }
+     document.write(Object.keys(m2));
+</script>
+</head>
+<body>
+</body>
+</html>
